@@ -67,7 +67,7 @@ struct PriceCalculatorView: View {
                          .font(.headline)
                          .foregroundColor(.secondary)
                      Spacer()
-                     Text("\(priceWithoutTax)")
+                     Text("$\(priceWithoutTax)")
                          .font(.headline)
                          .foregroundColor(.primary)
                  }
